@@ -1,16 +1,50 @@
-# React + Vite
+# 📊 Assignment Frontend – Excel to Charts & PDF Viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React-based frontend that interacts with the backend to visualize Excel data as charts and PDF reports.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- Upload Excel file (via backend API)
+- Trigger chart generation (Bar & Pie)
+- View generated charts in UI
+- View PDF report in browser iframe
+- Download generated PDF report
+- Real-time API integration with backend
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React.js (Vite / CRA)
+- Axios
+- JavaScript (ES6+)
+- HTML / CSS
+- Tailwind CSS (if used)
+
+---
+
+## 📁 Project Structure
+
+frontend/
+│
+├── src/
+│   ├── components/   # UI components
+│   ├── pages/        # Main pages
+│   ├── api/          # Axios API calls
+│   ├── assets/       # Images/icons
+│   └── App.jsx
+│
+├── public/
+├── package.json
+└── vite.config.js
+
+---
+
+## ⚙️ Installation
+
+```bash id="f1"
+git clone https://github.com/sahil-mane/assignment-frontend
+cd assignment-frontend
+npm install
